@@ -1,0 +1,71 @@
+# =========================
+# Python Virtual Environment
+# =========================
+.venv/
+venv/
+env/
+
+# =========================
+# Environment / Secrets
+# =========================
+.env
+.env.*
+!.env.example
+
+# =========================
+# Python Cache / Build
+# =========================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+
+# =========================
+# OS / Editor Files
+# =========================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+.vscode/
+.idea/
+
+# =========================
+# Frontend / Node
+# =========================
+node_modules/
+frontend.zip
+dist/
+build/
+
+# =========================
+# Generated / Output Files
+# =========================
+generated_presentations/
+output/
+outputs/
+*.wav
+*.mp3
+
+# =========================
+# Backup / Temp Files
+# =========================
+*_backup.py
+*.backup
+req_tmp.txt
+temp/
+tmp/
+
+# =========================
+# Docker (optional)
+# =========================
+docker-compose.override.yml
+
+
+# =========================
+# Extra / Test Frontend Files
+# =========================
+index2.html
+main2.js
+sample.html
